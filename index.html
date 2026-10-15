@@ -25,13 +25,8 @@ ul{padding-left:20px;margin:4px 0}input,select{padding:9px;border-radius:10px;bo
 .m{padding:8px 12px;border-radius:12px;margin:6px 0;white-space:pre-wrap;max-width:92%}.m.u{background:var(--ac);color:#fff;margin-left:auto}.m.a{background:var(--bg);border:1px solid var(--bd)}
 .big{font-size:34px;font-weight:700;color:var(--ac)}
 </style></head><body>
-<nav id="nv">
-    <a href="#">Басты бет</a>
-</nav>
-<main id="app">
-    <h1>Географияны нөлден меңгер</h1>
-    <p>Сайтқа қош келдіңіз!</p>
-</main><script>
+<nav id="nv"></nav><main id="app"></main>
+    <script>
 const $=s=>document.querySelector(s),rnd=(a,b)=>Math.floor(Math.random()*(b-a+1))+a,sh=a=>[...a].sort(()=>Math.random()-.5);
 let S;try{S=JSON.parse(localStorage.getItem("geo")||"{}")}catch(e){S={}}
 S=Object.assign({done:[],xp:0,days:[],wrong:{},ok:0,tests:[],goal:{l:2,q:20},day:{}},S);
